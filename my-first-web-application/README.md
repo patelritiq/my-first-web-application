@@ -80,6 +80,7 @@ This being my first web application, I learned:
 - `PUT /api/students/{id}` - Update student
 - `DELETE /api/students/{id}` - Delete student
 - `GET /api/students/states` - Get all states
-- 
+  
 
 *This is my first full-stack web application - a milestone in my development journey!*
+
