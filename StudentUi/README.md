@@ -1,59 +1,26 @@
 # StudentUi
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+Angular frontend for the Student Management System.
 
-## Development server
+## Purpose
 
-To start a local development server, run:
+This UI was built as part of a .NET + Angular practice project during training. It connects to the backend API in `../StudentApi` and supports the full student CRUD workflow.
 
-```bash
-ng serve
-```
+## Current Scope
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Add, edit, delete, and view students
+- State selection for student records
+- Client-side validation for form inputs
+- API integration through Angular services
 
-## Code scaffolding
+## Run Locally
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. `npm install`
+2. `npm start`
+3. Open `http://localhost:4200`
 
-```bash
-ng generate component component-name
-```
+The project uses `proxy.conf.json` to forward `/api` calls to the backend server.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Related Backend
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+See the root README in [../README.md](../README.md) for full-stack setup details, API endpoints, and project context.
